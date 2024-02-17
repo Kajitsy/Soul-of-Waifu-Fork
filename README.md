@@ -1,14 +1,57 @@
-# Неактуальный GUI для [Soul-of-Waifu от jofizcd](https://github.com/jofizcd/Soul-of-Waifu)
+# Lite версия [Soul-of-Waifu от jofizcd](https://github.com/jofizcd/Soul-of-Waifu)
 
-На данный момент вы можете использовать лишь одну версию от оригинала, но этого вполне достаточно для этой версии
-Хотите использовать голос от ElevenLabs? Вам [сюда](https://github.com/jofizcd/Soul-of-Waifu), хых
+В Lite версии отсутствует английская озвучка, озвучка ElevenLabs, но в ней голос проговаривает числа, странно что этого нет в оригинале.
 
-НО, здесь вы можете настраивать некоторые значения, также запускать, перезапускать или останавливать нейросеть без необходимости закрывать программу полностью
-Простенький интерфейс, пишите свои идеи либо в [дискорд создателя](https://discord.gg/6UvYzBKCZK) т.к. я там есть, либо в Issues
+Нашли ошибку? Отмечайте @kajitsy_ [здесь](https://discord.gg/6UvYzBKCZK)
 
-# Что здесь нужно?
-- Библиотека Character AI `pip install characterai`
-- Библиотека PyTorch с поддержкой CUDA `pip install torch --index-url https://download.pytorch.org/whl/cu118'`
-- Библиотека SoundDevice `pip install sounddevice`
-- Библиотека для перевода сообщений `pip install gpytranslate`, а затем библиотека для преобразования чисел в слова `pip install num2words`
-- Библиотека WhisperMic `pip install whisper-mic`
+### Что нужно для запуска?
+- [Python 3.10](https://www.python.org/downloads/release/python-3100/)
+- Все библиотеки будут установлены при запуске `download.bat`
+### Ссылки
+- [Оригинальная версия](https://github.com/jofizcd/Soul-of-Waifu)
+- [Версия с графическим интерфейсом](https://github.com/Kajitsy/Soul-of-Waifu-Fork/tree/gui)
+- [Lite версия с консольным интерфейсом](https://github.com/Kajitsy/Soul-of-Waifu-Fork/tree/lite)
+### Отличия версий
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Версия</th>
+      <th colspan="6">Возможности</th>
+    </tr>
+    <tr>
+      <th>Текстовый режим</th>
+      <th>Разговорный режим</th>
+      <th>Озвучка Silero TTS</th>
+      <th>Озвучка ElevenLabs</th>
+      <th>Графический интерфейс</th>
+      <th>Консольный интерфейс</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="1">Оригинальная</td>
+      <td>:white_check_mark:</td>
+      <td>:white_check_mark:</td>
+      <td>:white_check_mark:</td>
+      <td>:white_check_mark:</td>
+      <td>:negative_squared_cross_mark:</td>
+      <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+      <td rowspan="1">GUI</td>
+      <td>:negative_squared_cross_mark:</td>
+      <td>:white_check_mark:</td>
+      <td>:white_check_mark:</td>
+      <td>:negative_squared_cross_mark:</td>
+      <td>:white_check_mark:</td>
+      <td>:negative_squared_cross_mark:</td>
+    </tr>
+      <td rowspan="1">Lite</td>
+      <td>:white_check_mark:</td>
+      <td>:white_check_mark:</td>
+      <td>:white_check_mark:</td>
+      <td>:negative_squared_cross_mark:</td>
+      <td>:negative_squared_cross_mark:</td>
+      <td>:white_check_mark:</td>
+  </tbody>
+</table>
