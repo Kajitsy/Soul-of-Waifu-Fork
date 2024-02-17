@@ -1,0 +1,9 @@
+pyfiglet
+whisper-mic
+characterai
+sounddevice
+gpytranslate
+windows-curses
+colorama
+num2words
+torch
