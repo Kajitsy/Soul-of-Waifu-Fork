@@ -1,4 +1,5 @@
 # Lite версия [Soul-of-Waifu от jofizcd](https://github.com/jofizcd/Soul-of-Waifu)
+### Сейчас lite-версия не работает, попробуйте [gui-версию](https://github.com/Kajitsy/Soul-of-Waifu-Fork/tree/gui) или [оригинал от Jofi](https://github.com/jofizcd/Soul-of-Waifu)
 
 В Lite версии отсутствует английская озвучка, озвучка ElevenLabs, но в ней голос проговаривает числа, странно что этого нет в оригинале.
 
@@ -11,12 +12,13 @@
 - [Оригинальная версия](https://github.com/jofizcd/Soul-of-Waifu)
 - [Версия с графическим интерфейсом](https://github.com/Kajitsy/Soul-of-Waifu-Fork/tree/gui)
 - [Lite версия с консольным интерфейсом](https://github.com/Kajitsy/Soul-of-Waifu-Fork/tree/lite)
-### Отличия версий
+# Отличия версий
 <table>
   <thead>
     <tr>
       <th rowspan="2">Версия</th>
       <th colspan="6">Возможности</th>
+      <th colspan="1">Работает?</th>
     </tr>
     <tr>
       <th>Текстовый режим</th>
@@ -25,6 +27,7 @@
       <th>Озвучка ElevenLabs</th>
       <th>Графический интерфейс</th>
       <th>Консольный интерфейс</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -36,6 +39,7 @@
       <td>:white_check_mark:</td>
       <td>:negative_squared_cross_mark:</td>
       <td>:white_check_mark:</td>
+      <td>:negative_squared_cross_mark:</td>
     </tr>
     <tr>
       <td rowspan="1">GUI</td>
@@ -45,6 +49,7 @@
       <td>:negative_squared_cross_mark:</td>
       <td>:white_check_mark:</td>
       <td>:negative_squared_cross_mark:</td>
+      <td>:white_check_mark:</td>
     </tr>
       <td rowspan="1">Lite</td>
       <td>:white_check_mark:</td>
@@ -53,5 +58,5 @@
       <td>:negative_squared_cross_mark:</td>
       <td>:negative_squared_cross_mark:</td>
       <td>:white_check_mark:</td>
+      <td>:negative_squared_cross_mark:</td>
   </tbody>
-</table>
